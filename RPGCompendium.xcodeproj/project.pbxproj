@@ -16,6 +16,9 @@
 		BFC1FF292228595900F0B13D /* Race.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1FF282228595900F0B13D /* Race.swift */; };
 		BFC1FF2D22285D0D00F0B13D /* Job.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1FF2C22285D0D00F0B13D /* Job.swift */; };
 		BFC1FF2F2228740B00F0B13D /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1FF2E2228740B00F0B13D /* APIClient.swift */; };
+		BFC1FF35222D7BCF00F0B13D /* CharacterSpellsControllerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1FF34222D7BCF00F0B13D /* CharacterSpellsControllerViewController.swift */; };
+		BFC1FF37222D843000F0B13D /* CharacterStatsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1FF36222D843000F0B13D /* CharacterStatsController.swift */; };
+		BFC1FF3B222D994300F0B13D /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1FF3A222D994300F0B13D /* PageViewController.swift */; };
 		BFECFE8D220CD6E9001A4ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECFE8C220CD6E9001A4ABE /* AppDelegate.swift */; };
 		BFECFE8F220CD6E9001A4ABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECFE8E220CD6E9001A4ABE /* ViewController.swift */; };
 		BFECFE92220CD6E9001A4ABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFECFE90220CD6E9001A4ABE /* Main.storyboard */; };
@@ -34,6 +37,9 @@
 		BFC1FF282228595900F0B13D /* Race.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Race.swift; sourceTree = "<group>"; };
 		BFC1FF2C22285D0D00F0B13D /* Job.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job.swift; sourceTree = "<group>"; };
 		BFC1FF2E2228740B00F0B13D /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		BFC1FF34222D7BCF00F0B13D /* CharacterSpellsControllerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSpellsControllerViewController.swift; sourceTree = "<group>"; };
+		BFC1FF36222D843000F0B13D /* CharacterStatsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterStatsController.swift; sourceTree = "<group>"; };
+		BFC1FF3A222D994300F0B13D /* PageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		BFECFE89220CD6E9001A4ABE /* RPGCompendium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPGCompendium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFECFE8C220CD6E9001A4ABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFECFE8E220CD6E9001A4ABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +100,24 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
+		BFC1FF32222D772900F0B13D /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BFC1FF33222D7B7E00F0B13D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFECFE8E220CD6E9001A4ABE /* ViewController.swift */,
+				BFC1FF36222D843000F0B13D /* CharacterStatsController.swift */,
+				BFC1FF34222D7BCF00F0B13D /* CharacterSpellsControllerViewController.swift */,
+				BFC1FF3A222D994300F0B13D /* PageViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		BFECFE80220CD6E9001A4ABE = {
 			isa = PBXGroup;
 			children = (
@@ -116,14 +140,15 @@
 			isa = PBXGroup;
 			children = (
 				BFECFE8C220CD6E9001A4ABE /* AppDelegate.swift */,
-				BFECFE8E220CD6E9001A4ABE /* ViewController.swift */,
+				BFC1FF252228551200F0B13D /* Model */,
+				BFC1FF32222D772900F0B13D /* View */,
+				BFC1FF33222D7B7E00F0B13D /* Controller */,
 				BFC1FF2222249D0B00F0B13D /* NetworkServices */,
 				BFECFE90220CD6E9001A4ABE /* Main.storyboard */,
 				BFECFE93220CD6EA001A4ABE /* Assets.xcassets */,
 				BFECFE95220CD6EA001A4ABE /* LaunchScreen.storyboard */,
 				BFECFE98220CD6EA001A4ABE /* Info.plist */,
 				BFC1FF1A2224821800F0B13D /* GoogleService-Info.plist */,
-				BFC1FF252228551200F0B13D /* Model */,
 			);
 			path = RPGCompendium;
 			sourceTree = "<group>";
@@ -266,12 +291,15 @@
 				BFC1FF24222854F000F0B13D /* Spell.swift in Sources */,
 				BFC1FF292228595900F0B13D /* Race.swift in Sources */,
 				BFC1FF27222857E700F0B13D /* Condition.swift in Sources */,
+				BFC1FF3B222D994300F0B13D /* PageViewController.swift in Sources */,
 				BFC1FF1F22248FE200F0B13D /* AppError.swift in Sources */,
 				BFECFE8F220CD6E9001A4ABE /* ViewController.swift in Sources */,
+				BFC1FF37222D843000F0B13D /* CharacterStatsController.swift in Sources */,
 				BFC1FF1D22248F5100F0B13D /* NetworkHelper.swift in Sources */,
 				BFECFE8D220CD6E9001A4ABE /* AppDelegate.swift in Sources */,
 				BFC1FF2D22285D0D00F0B13D /* Job.swift in Sources */,
 				BFC1FF2F2228740B00F0B13D /* APIClient.swift in Sources */,
+				BFC1FF35222D7BCF00F0B13D /* CharacterSpellsControllerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
