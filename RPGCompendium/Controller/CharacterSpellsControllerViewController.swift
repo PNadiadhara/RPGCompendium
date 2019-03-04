@@ -26,13 +26,11 @@ class CharacterSpellsControllerViewController: UIViewController {
    
     @IBAction func spellSlotIndicatorButton(_ sender: UIButton) {
         print("Button Pressed")
-        
+      // TOGGLES SPELL SLOT INDICATORS
         if sender.image(for: .normal) == UIImage(named: "clearButton") {
             sender.setImage(UIImage(named: "purple"), for: .normal)
-            print("if ran")
         } else {
             sender.setImage(UIImage(named: "clearButton"), for: .normal)
-            print("else ran")
         }
         
 
