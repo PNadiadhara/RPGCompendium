@@ -10,11 +10,18 @@ import UIKit
 
 class CharacterStatsController: UIViewController {
 
+    @IBOutlet var backgroundImage: UIImageView!
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        configureSettings()
        
     }
+    
+    private func configureSettings() {
+        backgroundImage.image = UIImage(named: "cave_bg")
+        
+    }
+
     
 
     
