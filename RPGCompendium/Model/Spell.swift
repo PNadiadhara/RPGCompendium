@@ -9,7 +9,7 @@
 import Foundation
 
 struct Spell : Codable {
-    let next : String
+    let next : String?
     let results : [SpellResults]
 }
 

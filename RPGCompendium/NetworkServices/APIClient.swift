@@ -9,8 +9,10 @@
 import Foundation
 
 final class APIClient {
-    static func getSpell (completionHandler: @escaping (AppError?, Spell?) -> Void) {
-        let endPointURLString = "https://api-beta.open5e.com/spells/"
+    
+    
+    static func getSpell (endPointURLString : String , completionHandler: @escaping (AppError?, Spell?) -> Void) {
+        
         guard let url = URL(string: endPointURLString) else {
             completionHandler(AppError.badURL(endPointURLString), nil)
             return

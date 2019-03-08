@@ -8,7 +8,7 @@
 
 import UIKit
 
-class PageViewController: UIPageViewController {
+class characterPageViewController: UIPageViewController {
     //TODO : SET STORYBOARD IDENTIFIERS ON STORYBOARD
     
     lazy var allViewControllers = [self.getViewController(name: "FirstViewController"), self.getViewController(name: "SecondViewController")]
@@ -25,7 +25,7 @@ class PageViewController: UIPageViewController {
     }
 }
 
-extension PageViewController: UIPageViewControllerDataSource {
+extension characterPageViewController: UIPageViewControllerDataSource {
     func pageViewController(_ pageViewController: UIPageViewController, viewControllerBefore viewController: UIViewController) -> UIViewController? {
         guard let index = allViewControllers.firstIndex(of: viewController) else { return nil }
         let previousIndex  = index - 1
