@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class InitiativeViewController: UIViewController {
     
     //private var spells = Spell()
 

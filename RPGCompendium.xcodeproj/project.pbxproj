@@ -8,6 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		97C639C36126F35FBD790E7B /* Pods_RPGCompendium.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1DABA4D129A3E234A640A5 /* Pods_RPGCompendium.framework */; };
+		BF9E66BF2236424500AE7C48 /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66BE2236424500AE7C48 /* DataPersistenceManager.swift */; };
+		BF9E66C2223642AF00AE7C48 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66C1223642AF00AE7C48 /* UserDefaults.swift */; };
+		BF9E66C4223642D800AE7C48 /* DataPersistenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66C3223642D800AE7C48 /* DataPersistenceModel.swift */; };
+		BF9E66C722369CD200AE7C48 /* SpellCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66C522369CD200AE7C48 /* SpellCell.swift */; };
+		BF9E66C822369CD200AE7C48 /* SpellCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9E66C622369CD200AE7C48 /* SpellCell.xib */; };
+		BF9E66CA2236D7CE00AE7C48 /* CreateSpell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66C92236D7CE00AE7C48 /* CreateSpell.swift */; };
+		BF9E66CC2236D7F000AE7C48 /* CreateSpell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF9E66CB2236D7F000AE7C48 /* CreateSpell.xib */; };
+		BF9E66CE2237575E00AE7C48 /* CreateSpellViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66CD2237575E00AE7C48 /* CreateSpellViewController.swift */; };
+		BF9E66DC22384D6800AE7C48 /* RPGTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66DB22384D6800AE7C48 /* RPGTabBarController.swift */; };
+		BF9E66DE22389F7500AE7C48 /* AlertsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66DD22389F7500AE7C48 /* AlertsViewController.swift */; };
+		BF9E66E02238C8F400AE7C48 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66DF2238C8F400AE7C48 /* AuthService.swift */; };
+		BF9E66E22238C91400AE7C48 /* DBService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66E12238C91400AE7C48 /* DBService.swift */; };
+		BF9E66E42238C95300AE7C48 /* DBServiceUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66E32238C95300AE7C48 /* DBServiceUser.swift */; };
+		BF9E66E62238C9A700AE7C48 /* StorageSerivce.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66E52238C9A700AE7C48 /* StorageSerivce.swift */; };
+		BF9E66E82238CA0800AE7C48 /* DBSerivceCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66E72238CA0800AE7C48 /* DBSerivceCharacter.swift */; };
+		BF9E66EA2238CA8900AE7C48 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66E92238CA8900AE7C48 /* Player.swift */; };
+		BF9E66EC2238CCF200AE7C48 /* CharacterSpell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66EB2238CCF200AE7C48 /* CharacterSpell.swift */; };
+		BF9E66F02238D68900AE7C48 /* DateExtentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66EF2238D68900AE7C48 /* DateExtentions.swift */; };
+		BF9E66F52238E62B00AE7C48 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66F42238E62B00AE7C48 /* LoginViewController.swift */; };
+		BF9E66F72238E63E00AE7C48 /* CreateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9E66F62238E63E00AE7C48 /* CreateAccountViewController.swift */; };
+		BF9E66FA2238E7C100AE7C48 /* LogIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF9E66F92238E7C100AE7C48 /* LogIn.storyboard */; };
 		BFC1FF1B2224821800F0B13D /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = BFC1FF1A2224821800F0B13D /* GoogleService-Info.plist */; };
 		BFC1FF1D22248F5100F0B13D /* NetworkHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1FF1C22248F5100F0B13D /* NetworkHelper.swift */; };
 		BFC1FF1F22248FE200F0B13D /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1FF1E22248FE200F0B13D /* AppError.swift */; };
@@ -22,7 +43,7 @@
 		BFC1FF3E2232397C00F0B13D /* SpellListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1FF3D2232397C00F0B13D /* SpellListViewController.swift */; };
 		BFC1FF412232C7ED00F0B13D /* SpellDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC1FF402232C7ED00F0B13D /* SpellDetailViewController.swift */; };
 		BFECFE8D220CD6E9001A4ABE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECFE8C220CD6E9001A4ABE /* AppDelegate.swift */; };
-		BFECFE8F220CD6E9001A4ABE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECFE8E220CD6E9001A4ABE /* ViewController.swift */; };
+		BFECFE8F220CD6E9001A4ABE /* InitiativeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFECFE8E220CD6E9001A4ABE /* InitiativeViewController.swift */; };
 		BFECFE92220CD6E9001A4ABE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFECFE90220CD6E9001A4ABE /* Main.storyboard */; };
 		BFECFE94220CD6EA001A4ABE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFECFE93220CD6EA001A4ABE /* Assets.xcassets */; };
 		BFECFE97220CD6EA001A4ABE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFECFE95220CD6EA001A4ABE /* LaunchScreen.storyboard */; };
@@ -31,6 +52,27 @@
 /* Begin PBXFileReference section */
 		4CC5A0BEA545055B070E7A5F /* Pods-RPGCompendium.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RPGCompendium.release.xcconfig"; path = "Target Support Files/Pods-RPGCompendium/Pods-RPGCompendium.release.xcconfig"; sourceTree = "<group>"; };
 		7F1DABA4D129A3E234A640A5 /* Pods_RPGCompendium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RPGCompendium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9E66BE2236424500AE7C48 /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
+		BF9E66C1223642AF00AE7C48 /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		BF9E66C3223642D800AE7C48 /* DataPersistenceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceModel.swift; sourceTree = "<group>"; };
+		BF9E66C522369CD200AE7C48 /* SpellCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellCell.swift; sourceTree = "<group>"; };
+		BF9E66C622369CD200AE7C48 /* SpellCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SpellCell.xib; sourceTree = "<group>"; };
+		BF9E66C92236D7CE00AE7C48 /* CreateSpell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSpell.swift; sourceTree = "<group>"; };
+		BF9E66CB2236D7F000AE7C48 /* CreateSpell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CreateSpell.xib; sourceTree = "<group>"; };
+		BF9E66CD2237575E00AE7C48 /* CreateSpellViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateSpellViewController.swift; sourceTree = "<group>"; };
+		BF9E66DB22384D6800AE7C48 /* RPGTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RPGTabBarController.swift; sourceTree = "<group>"; };
+		BF9E66DD22389F7500AE7C48 /* AlertsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AlertsViewController.swift; path = Controller/AlertsViewController.swift; sourceTree = "<group>"; };
+		BF9E66DF2238C8F400AE7C48 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		BF9E66E12238C91400AE7C48 /* DBService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBService.swift; sourceTree = "<group>"; };
+		BF9E66E32238C95300AE7C48 /* DBServiceUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBServiceUser.swift; sourceTree = "<group>"; };
+		BF9E66E52238C9A700AE7C48 /* StorageSerivce.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageSerivce.swift; sourceTree = "<group>"; };
+		BF9E66E72238CA0800AE7C48 /* DBSerivceCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DBSerivceCharacter.swift; sourceTree = "<group>"; };
+		BF9E66E92238CA8900AE7C48 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		BF9E66EB2238CCF200AE7C48 /* CharacterSpell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSpell.swift; sourceTree = "<group>"; };
+		BF9E66EF2238D68900AE7C48 /* DateExtentions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtentions.swift; sourceTree = "<group>"; };
+		BF9E66F42238E62B00AE7C48 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		BF9E66F62238E63E00AE7C48 /* CreateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountViewController.swift; sourceTree = "<group>"; };
+		BF9E66F92238E7C100AE7C48 /* LogIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LogIn.storyboard; sourceTree = "<group>"; };
 		BFC1FF1A2224821800F0B13D /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		BFC1FF1C22248F5100F0B13D /* NetworkHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkHelper.swift; sourceTree = "<group>"; };
 		BFC1FF1E22248FE200F0B13D /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
@@ -46,7 +88,7 @@
 		BFC1FF402232C7ED00F0B13D /* SpellDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellDetailViewController.swift; sourceTree = "<group>"; };
 		BFECFE89220CD6E9001A4ABE /* RPGCompendium.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RPGCompendium.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFECFE8C220CD6E9001A4ABE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFECFE8E220CD6E9001A4ABE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BFECFE8E220CD6E9001A4ABE /* InitiativeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InitiativeViewController.swift; sourceTree = "<group>"; };
 		BFECFE91220CD6E9001A4ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFECFE93220CD6EA001A4ABE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFECFE96220CD6EA001A4ABE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -83,6 +125,45 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		BF9E66B42235D0EB00AE7C48 /* FireBase Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BF9E66DF2238C8F400AE7C48 /* AuthService.swift */,
+				BF9E66E12238C91400AE7C48 /* DBService.swift */,
+				BF9E66E32238C95300AE7C48 /* DBServiceUser.swift */,
+				BF9E66E72238CA0800AE7C48 /* DBSerivceCharacter.swift */,
+				BF9E66E52238C9A700AE7C48 /* StorageSerivce.swift */,
+			);
+			path = "FireBase Utilities";
+			sourceTree = "<group>";
+		};
+		BF9E66C02236424B00AE7C48 /* FileManagerHelpers */ = {
+			isa = PBXGroup;
+			children = (
+				BF9E66BE2236424500AE7C48 /* DataPersistenceManager.swift */,
+				BF9E66C1223642AF00AE7C48 /* UserDefaults.swift */,
+				BF9E66C3223642D800AE7C48 /* DataPersistenceModel.swift */,
+			);
+			path = FileManagerHelpers;
+			sourceTree = "<group>";
+		};
+		BF9E66F12238D69500AE7C48 /* DateExtentions */ = {
+			isa = PBXGroup;
+			children = (
+				BF9E66EF2238D68900AE7C48 /* DateExtentions.swift */,
+			);
+			path = DateExtentions;
+			sourceTree = "<group>";
+		};
+		BF9E66F82238E64A00AE7C48 /* LogIn */ = {
+			isa = PBXGroup;
+			children = (
+				BF9E66F42238E62B00AE7C48 /* LoginViewController.swift */,
+				BF9E66F62238E63E00AE7C48 /* CreateAccountViewController.swift */,
+			);
+			path = LogIn;
+			sourceTree = "<group>";
+		};
 		BFC1FF2222249D0B00F0B13D /* NetworkServices */ = {
 			isa = PBXGroup;
 			children = (
@@ -100,6 +181,8 @@
 				BFC1FF26222857E700F0B13D /* Condition.swift */,
 				BFC1FF282228595900F0B13D /* Race.swift */,
 				BFC1FF2C22285D0D00F0B13D /* Job.swift */,
+				BF9E66E92238CA8900AE7C48 /* Player.swift */,
+				BF9E66EB2238CCF200AE7C48 /* CharacterSpell.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -107,6 +190,10 @@
 		BFC1FF32222D772900F0B13D /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BF9E66C522369CD200AE7C48 /* SpellCell.swift */,
+				BF9E66C622369CD200AE7C48 /* SpellCell.xib */,
+				BF9E66C92236D7CE00AE7C48 /* CreateSpell.swift */,
+				BF9E66CB2236D7F000AE7C48 /* CreateSpell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -114,9 +201,11 @@
 		BFC1FF33222D7B7E00F0B13D /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				BFECFE8E220CD6E9001A4ABE /* ViewController.swift */,
+				BFECFE8E220CD6E9001A4ABE /* InitiativeViewController.swift */,
 				BFC1FF3C2232394B00F0B13D /* Character */,
 				BFC1FF3F2232398700F0B13D /* Reference */,
+				BF9E66DB22384D6800AE7C48 /* RPGTabBarController.swift */,
+				BF9E66F82238E64A00AE7C48 /* LogIn */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -136,6 +225,7 @@
 			children = (
 				BFC1FF3D2232397C00F0B13D /* SpellListViewController.swift */,
 				BFC1FF402232C7ED00F0B13D /* SpellDetailViewController.swift */,
+				BF9E66CD2237575E00AE7C48 /* CreateSpellViewController.swift */,
 			);
 			path = Reference;
 			sourceTree = "<group>";
@@ -162,15 +252,20 @@
 			isa = PBXGroup;
 			children = (
 				BFECFE8C220CD6E9001A4ABE /* AppDelegate.swift */,
+				BF9E66C02236424B00AE7C48 /* FileManagerHelpers */,
+				BFC1FF2222249D0B00F0B13D /* NetworkServices */,
+				BF9E66B42235D0EB00AE7C48 /* FireBase Utilities */,
 				BFC1FF252228551200F0B13D /* Model */,
 				BFC1FF32222D772900F0B13D /* View */,
 				BFC1FF33222D7B7E00F0B13D /* Controller */,
-				BFC1FF2222249D0B00F0B13D /* NetworkServices */,
 				BFECFE90220CD6E9001A4ABE /* Main.storyboard */,
+				BF9E66F92238E7C100AE7C48 /* LogIn.storyboard */,
 				BFECFE93220CD6EA001A4ABE /* Assets.xcassets */,
 				BFECFE95220CD6EA001A4ABE /* LaunchScreen.storyboard */,
 				BFECFE98220CD6EA001A4ABE /* Info.plist */,
 				BFC1FF1A2224821800F0B13D /* GoogleService-Info.plist */,
+				BF9E66DD22389F7500AE7C48 /* AlertsViewController.swift */,
+				BF9E66F12238D69500AE7C48 /* DateExtentions */,
 			);
 			path = RPGCompendium;
 			sourceTree = "<group>";
@@ -235,9 +330,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF9E66FA2238E7C100AE7C48 /* LogIn.storyboard in Resources */,
+				BF9E66CC2236D7F000AE7C48 /* CreateSpell.xib in Resources */,
 				BFECFE97220CD6EA001A4ABE /* LaunchScreen.storyboard in Resources */,
 				BFC1FF1B2224821800F0B13D /* GoogleService-Info.plist in Resources */,
 				BFECFE94220CD6EA001A4ABE /* Assets.xcassets in Resources */,
+				BF9E66C822369CD200AE7C48 /* SpellCell.xib in Resources */,
 				BFECFE92220CD6E9001A4ABE /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -311,18 +409,36 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFC1FF24222854F000F0B13D /* Spell.swift in Sources */,
+				BF9E66E02238C8F400AE7C48 /* AuthService.swift in Sources */,
 				BFC1FF292228595900F0B13D /* Race.swift in Sources */,
 				BFC1FF412232C7ED00F0B13D /* SpellDetailViewController.swift in Sources */,
+				BF9E66EA2238CA8900AE7C48 /* Player.swift in Sources */,
+				BF9E66C4223642D800AE7C48 /* DataPersistenceModel.swift in Sources */,
+				BF9E66C722369CD200AE7C48 /* SpellCell.swift in Sources */,
 				BFC1FF27222857E700F0B13D /* Condition.swift in Sources */,
+				BF9E66C2223642AF00AE7C48 /* UserDefaults.swift in Sources */,
+				BF9E66CE2237575E00AE7C48 /* CreateSpellViewController.swift in Sources */,
+				BF9E66E62238C9A700AE7C48 /* StorageSerivce.swift in Sources */,
 				BFC1FF3B222D994300F0B13D /* characterPageViewController.swift in Sources */,
+				BF9E66E82238CA0800AE7C48 /* DBSerivceCharacter.swift in Sources */,
+				BF9E66F52238E62B00AE7C48 /* LoginViewController.swift in Sources */,
+				BF9E66DE22389F7500AE7C48 /* AlertsViewController.swift in Sources */,
 				BFC1FF1F22248FE200F0B13D /* AppError.swift in Sources */,
-				BFECFE8F220CD6E9001A4ABE /* ViewController.swift in Sources */,
+				BF9E66BF2236424500AE7C48 /* DataPersistenceManager.swift in Sources */,
+				BFECFE8F220CD6E9001A4ABE /* InitiativeViewController.swift in Sources */,
+				BF9E66DC22384D6800AE7C48 /* RPGTabBarController.swift in Sources */,
+				BF9E66F02238D68900AE7C48 /* DateExtentions.swift in Sources */,
+				BF9E66F72238E63E00AE7C48 /* CreateAccountViewController.swift in Sources */,
 				BFC1FF37222D843000F0B13D /* CharacterStatsController.swift in Sources */,
+				BF9E66CA2236D7CE00AE7C48 /* CreateSpell.swift in Sources */,
+				BF9E66E22238C91400AE7C48 /* DBService.swift in Sources */,
+				BF9E66EC2238CCF200AE7C48 /* CharacterSpell.swift in Sources */,
 				BFC1FF1D22248F5100F0B13D /* NetworkHelper.swift in Sources */,
 				BFECFE8D220CD6E9001A4ABE /* AppDelegate.swift in Sources */,
 				BFC1FF2D22285D0D00F0B13D /* Job.swift in Sources */,
 				BFC1FF2F2228740B00F0B13D /* APIClient.swift in Sources */,
 				BFC1FF35222D7BCF00F0B13D /* CharacterSpellsControllerViewController.swift in Sources */,
+				BF9E66E42238C95300AE7C48 /* DBServiceUser.swift in Sources */,
 				BFC1FF3E2232397C00F0B13D /* SpellListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

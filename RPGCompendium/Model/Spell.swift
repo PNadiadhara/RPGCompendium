@@ -14,21 +14,21 @@ struct Spell : Codable {
 }
 
 struct SpellResults : Codable{
-    let name : String
-    let desc : String
-    let higher_level : String
-    let page : String
-    let range : String
-    let components : String
-    let material : String
-    let ritual : String
-    let duration : String
-    let concentration : String
-    let casting_time : String
-    let level : String
-    let school : String
-    let dnd_class : String
-    let archetype : String
-    let circles : String
-    let document_slug : String
+    var name : String
+    var desc : String
+    var higher_level : String
+    var page : String
+    var range : String
+    var components : String
+    var material : String
+    var ritual : String
+    var duration : String
+    var concentration : String
+    var casting_time : String
+    var level : String
+    var school : String
+    var dnd_class : String
+    var archetype : String
+    var circles : String
+    var document_slug : String
 }
